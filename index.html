@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app helps twitch streamers pick the background">
+    	<meta name="keywords" content="twitch, background">
+
+		<title>VTuber Cyberpunk Background</title>
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="slide">
+			<div id="toggle">&#9776;</div>
+			<nav class="box">
+				<ul>
+					<li id="c">Cyberpunk</li>
+					<li id="o">Overlay</li>
+					<li id="ss">Stream Start</li>
+					<li id="sp">Stream Pause</li>
+					<li id="se">Stream End</li>
+					<li id="m1">Morning 1</li>
+					<li id="m2">Morning 2</li>
+					<li id="n1">Night 1</li>
+					<li id="n2">Night 2</li>
+				</ul>
+			</nav>
+		</div>
+
+		<img src="img/CyberpunkO.png" alt="Overlay" id="oImg" class="hidden">
+
+		<video controls loop id="ssVideo" class="hidden formatVideo">
+			<source src="img/CyberpunkIntro.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="m1Video" class="hidden formatVideo">
+			<source src="img/CyberpunkM1.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="m2Video" class="hidden formatVideo">
+			<source src="img/CyberpunkM2.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="spVideo" class="hidden formatVideo">
+			<source src="img/CyberpunkMid.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="n1Video" class="hidden formatVideo">
+			<source src="img/CyberpunkN1.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="n2Video" class="hidden formatVideo">
+			<source src="img/CyberpunkN2.mp4" type="video/mp4">
+		</video>
+
+		<video controls loop id="seVideo" class="hidden formatVideo">
+			<source src="img/CyberpunkEnd.mp4" type="video/mp4">
+		</video>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
